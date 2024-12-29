@@ -1,19 +1,18 @@
-Got it! Here’s the updated **README** with the formula centered on the line and each notebook name listed once in bold:
 # Credit Risk Modeling
 
 ## Overview
 This project demonstrates the implementation of **Credit Risk Modeling** using historical loan data. The model calculates the **Expected Loss (EL)** of a bank’s loan portfolio based on the following formula:
 
 <p align="center">
-  **EL = PD × LGD × EAD**
+  <b>EL = PD × LGD × EAD</b>
 </p>
 
 Where:
-- **PD (Probability of Default)**: The likelihood that a borrower will default on their loan.
-- **LGD (Loss Given Default)**: The percentage of the loan that is lost in the event of a default.
-- **EAD (Exposure at Default)**: The amount of the loan that is at risk when the borrower defaults.
+- **PD (Probability of Default)**: The likelihood that a borrower will default on their loan
+- **LGD (Loss Given Default)**: The percentage of the loan that is lost in the event of a default
+- **EAD (Exposure at Default)**: The amount of the loan that is at risk when the borrower defaults
 
-The model uses loan data from **2007 to 2014** for training and testing, with data from **2015** reserved for **model monitoring**. The goal is to assess the bank’s expected loss over time and make informed decisions about future lending practices. Typically, expected loss values range between **2% and 10%** of the exposure value, guiding the bank's decision-making to be either more conservative or more aggressive in issuing loans.
+The model uses loan data from **2007 to 2014** for **training and testing**, with data from **2015** reserved for **model monitoring**. The goal is to assess the bank’s expected loss over time and make informed decisions about future lending practices. Typically, expected loss values range between **2% and 10%** of the exposure value, guiding the bank's decision-making to be either more conservative or more aggressive in issuing loans.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -52,13 +51,13 @@ The project uses the following dependencies:
 
 This project is organized into several Jupyter Notebooks, each addressing different aspects of credit risk modeling:
 
-- **[Credit Risk Modeling Pt 1 - Preprocessing.ipynb](Credit Risk Modeling Pt 1 - Preprocessing.ipynb)**: Handles the preprocessing steps, such as data cleaning, feature selection, and preparing the datasets for training and testing.
-  
-- **[Credit Risk Modeling Pt 2 - PD.ipynb](Credit Risk Modeling Pt 2 - PD.ipynb)**: Focuses on building a model for calculating the **Probability of Default (PD)** using machine learning techniques.
+- **Credit Risk Modeling Pt 1 - Preprocessing.ipynb**: Handles the preprocessing steps, such as data cleaning, feature selection, and preparing the datasets for training and testing.
 
-- **[Credit Risk Modeling Pt 3 - Monitoring.ipynb](Credit Risk Modeling Pt 3 - Monitoring.ipynb)**: Monitors the model’s performance using data from **2015** to assess its generalization ability on unseen data.
+- **Credit Risk Modeling Pt 2 - PD.ipynb**: Focuses on building a model for calculating the **Probability of Default (PD)** using machine learning techniques.
 
-- **[Credit Risk Modeling Pt 4 - LGD and EAD Models and Calculating EL.ipynb](Credit Risk Modeling Pt 4 - LGD and EAD Models and Calculating EL.ipynb)**: Builds models for **Loss Given Default (LGD)** and **Exposure at Default (EAD)**, followed by the calculation of the **Expected Loss (EL)** based on the formula.
+- **Credit Risk Modeling Pt 3 - Monitoring.ipynb**: Monitors the model’s performance using data from **2015** to assess its generalization ability on unseen data.
+
+- **Credit Risk Modeling Pt 4 - LGD and EAD Models and Calculating EL.ipynb**: Builds models for **Loss Given Default (LGD)** and **Exposure at Default (EAD)**, followed by the calculation of the **Expected Loss (EL)** based on the formula.
 
 ## Input Data
 
